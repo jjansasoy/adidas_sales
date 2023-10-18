@@ -1,6 +1,6 @@
 # 👟 Adidas Sales Project 
 
-Project for the analysis of sales data from Adidas in the US using PostgreSQL for in-depth analysis, followed by Tableau for comprehensive data visualization.
+Project for the analysis of Adidas US sales data using PostgreSQL for in-depth analysis, followed by Tableau for comprehensive data visualization.
 
 ## Background
 Sales are a fundamental aspect of any business. 
