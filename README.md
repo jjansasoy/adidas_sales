@@ -111,7 +111,7 @@ ORDER BY total_sales DESC;
 
 And this is the data output:
 
-<img width="232" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/9341621a-ac15-4f66-a614-8f5c5be8a86f">
+<img width="230" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/04775ecb-837e-4d48-95fe-7d331f38eeef">
 
 ### What are the top three products on highest demand in terms of quantity?
 
