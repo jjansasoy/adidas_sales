@@ -16,7 +16,7 @@ In this project, I'll analyze two tables repurposed from the [Adidas Sales Datas
 
 By correlating insights from this sales data with marketing efforts, Adidas can allocate marketing budgets more effectively and generate more revenue.
 
-**NOTE: The methodology section provides the project's background. Within the results, you'll find code snippets and data outputs from PostgreSQL along with answers to the project's questions. The data visualization segment showcases the Tableau dashboard. And finally, the recommendations section gives you next steps for Adidas**
+**NOTE: The methodology section provides the project's background. Within the results, you'll find code snippets and data outputs from PostgreSQL along with answers to the project's questions. The data visualization segment showcases the Tableau dashboard. Finally, the recommendations section gives you the next steps for Adidas**
 
 ## 📊 Methodoly
 
