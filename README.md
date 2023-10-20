@@ -211,7 +211,7 @@ Here are the results:
 - **Measure:** SUM(Total Sales)
 - **Description:** In this pie chart, for Figure 1, you can easily identify which product categories contribute the most to total sales. In this case, is the Men's Street Footwear.
 
-<img width="479" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/7d98ac96-97b2-4745-9080-98dcd047cfda">
+<img width="402" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/2fd227ed-415e-4ef4-a3a3-ac675a22ddef">
 
 ### Figure 2. Total Sales and Units Sold per Month
 
