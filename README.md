@@ -26,13 +26,13 @@ The first Excel file, Adidas US Sales (as its name suggests), had information on
 
 The second Excel file, Adidas US Locations, had information on transaction id, region, state, and city. 
 
-It's clear from the beginning you have to import both of these files to PostgreSQL as tables and then join them as one. This would help further analysis to answer questions that have to do with the states that generated the most sales as well as trends.
+It's clear from the beginning I have to import both of these files to PostgreSQL as tables and then join them as one. This would help further analysis to answer questions that have to do with the states that generated the most sales as well as trends.
 
 Here's the step-by-step of the methodology I followed:
 
 ### Creating empty tables
 
-In order to import the information on the Excel files into PostgreSQL, you have to create an empty table for each Excel sheet. These empty tables must contain the same column name of the headers while keeping in mind the data type, and column constraints.
+In order to import the information on the Excel files into PostgreSQL, I had to create an empty table for each Excel sheet. These empty tables must contain the same column name of the headers while keeping in mind the data type, and column constraints.
 
 I created the first table "adidas_sales" with the following code:
 
@@ -45,15 +45,16 @@ CREATE TABLE adidas_sales (
 	product VARCHAR(50) NOT NULL,
 	price_per_unit INTEGER NOT NULL,
 	units_sold INTEGER NOT NULL,
+	total_sales INTEGER NOT NULL,
 	sales_method VARCHAR(50) NOT NULL
 );
 ```
 
-Then the second empty table "locations" with this query:
+Then I created the second empty table "locations" with this query:
 
 ```
 CREATE TABLE locations (
-	transaction_id INTEGER REFERENCES adidas_sales(transaction_id)
+	transaction_id INTEGER REFERENCES adidas_sales(transaction_id),
 	region VARCHAR(25) NOT NULL,
 	state VARCHAR(25) NOT NULL,
 	city VARCHAR(25) NOT NULL
