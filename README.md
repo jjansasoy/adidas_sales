@@ -1,6 +1,6 @@
 # 👟 Adidas Sales Project 
 
-Project for the analysis of Adidas US sales data using PostgreSQL for in-depth analysis, followed by Tableau for comprehensive data visualization.
+Project for the analysis of Adidas US sales data from 2021 using PostgreSQL for in-depth analysis, followed by Tableau for comprehensive data visualization.
 
 ## Background
 Sales are a fundamental aspect of any business. 
@@ -188,6 +188,70 @@ And here's the data output:
 
 
 ## ✨ Data Visualization in Tableau
+
+**Check the Adidas Sales Dashboard in Tableau [here](https://public.tableau.com/app/profile/jessica.jansasoy/viz/AdidasSalesDashboard_16977627312930/Dashboard1).**
+
+Using PostgreSQL was effective in answering specific questions. However, a data visualization tool it's a better option to highlight insights that may not be immediately apparent when looking at rows and columns of numbers (for example the question about seasonality). Plus, with visualizations, it's easier to compare datasets or elements within a dataset.
+
+Comparing sales figures over different time periods or evaluating the performance of different products is going to become clearer.
+
+For this project, I needed graphics that showed the following:
+
+- The portion of revenue each product category brings to Adidas
+- A trend line to identify seasonal trends and changes during the year
+- The total sales per state in a more visual way
+- And (as a bonus) a graphic with information about sales by retailer and their sales method
+
+Here are the results:
+
+### Figure 1. Total Sales by Product Category
+
+- **Visualization type:** Pie chart
+- **Dimensions:** Product Category
+- **Measure:** SUM(Total Sales)
+- **Description:** In this pie chart for Figure 1, you can easily identify which product categories contribute the most to total sales. In this case, is the Men's Street Footwear.
+
+<img width="479" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/7d98ac96-97b2-4745-9080-98dcd047cfda">
+
+### Figure 2. Total Sales and Units Sold per Month
+
+- **Visualization type:** Line chart
+- **Dimensions:** Month(Invoice Date)
+- **Measure:** SUM(Total Sales), SUM(Units Sold)
+- **Description:** 
+
+<img width="521" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/ebc0e0ad-fadf-4427-8138-fb90c898fd1b">
+
+
+
+### Figure 3. Total Sales by State
+
+- **Visualization type:** Horizontal bar chart
+- **Dimensions:**
+- **Measure:**
+- **Description:**
+
+<img width="475" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/351daadb-dfa9-4962-8698-9d7ee0f57c2d">
+
+
+### Figure 4. Total Sales by Retailer and Sales Method
+
+- **Visualization type:** Stacked bar chart
+- **Dimensions:**
+- **Measure:**
+- **Description:**
+
+<img width="491" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/edd4f173-409f-48ee-94ec-475dce6574e0">
+
+
+
+
+
+
+
+
+
+
 
 
 ## 🧠 Findings
