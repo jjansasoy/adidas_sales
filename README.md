@@ -113,6 +113,7 @@ And this is the data output:
 
 <img width="230" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/04775ecb-837e-4d48-95fe-7d331f38eeef">
 
+
 From this, you can conclude that the product category that brings the most revenue is "Men's Street Footwear", while "Women's Athletic Footwear" is at the bottom.
 
 ### What are the top three products on highest demand in terms of quantity?
@@ -134,7 +135,8 @@ And the data output:
 
 <img width="239" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/cfd1b4f1-753f-4038-840b-945c81a532b5">
 
-From this, you can conclude that the three product categories in the highest demand are "Men's Street Footwear", "Men's Athletic Footwear", and "Women's Apparel".
+
+The three product categories in the highest demand are "Men's Street Footwear", "Men's Athletic Footwear", and "Women's Apparel".
 
 ### Which retailers have the most sales per state?
 
@@ -168,6 +170,7 @@ And here's a screenshot of the retailers with the most sales in the first 10 sta
 
 <img width="332" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/a52ce4f7-82d8-4e6a-94bf-b280a1961320">
 
+
 This table (as it happens with the previous ones) is very self-explanatory. But as a conclusion, I'll mention that Alabama's top retailer is Sports Direct.
 
 ### Are there any interesting patterns as to when customers buy more products in terms of seasonality?
@@ -192,6 +195,7 @@ ORDER BY total_sales;
 And here's the data output:
 
 <img width="164" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/d4a1d427-4f74-4956-b288-b81eb21ffa19">
+
 
 The only pattern or insight you can get from this table is that sales are at their highest in the summer. 
 
