@@ -111,7 +111,7 @@ ORDER BY total_sales DESC;
 
 And this is the data output:
 
-<img width="233" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/d01ffc93-8d75-4935-b78f-e567bda8d99e">
+<img width="232" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/9341621a-ac15-4f66-a614-8f5c5be8a86f">
 
 ### What are the top three products on highest demand in terms of quantity?
 
@@ -130,7 +130,7 @@ LIMIT 3;
 
 And the data output:
 
-<img width="240" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/6f7cb32f-6c5d-4a1f-b31a-28f045cb073b">
+<img width="239" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/cfd1b4f1-753f-4038-840b-945c81a532b5">
 
 ### Which retailers have the most sales per state?
 
@@ -162,7 +162,7 @@ WHERE rank = 1;
 ```
 And here's a screenshot of the retailers with the most sales in the first 10 states by alphabetical order:
 
-<img width="329" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/3c422160-30b4-41d7-b369-75baa95022cc">
+<img width="332" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/a52ce4f7-82d8-4e6a-94bf-b280a1961320">
 
 ### Are there any interesting patterns as to when customers buy more products in terms of seasonality?
 
@@ -185,8 +185,7 @@ ORDER BY total_sales;
 
 And here's the data output:
 
-<img width="164" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/d145023a-c124-41fe-b0a6-ef2081ff10d9">
-
+<img width="164" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/d4a1d427-4f74-4956-b288-b81eb21ffa19">
 
 ## ✨ Data Visualization in Tableau
 
