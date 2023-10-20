@@ -113,7 +113,7 @@ And this is the data output:
 
 <img width="230" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/04775ecb-837e-4d48-95fe-7d331f38eeef">
 
-From this data we can conclude that 
+From this, you can conclude that the product category that brings the most revenue is "Men's Street Footwear", while "Women's Athletic Footwear" is at the bottom.
 
 ### What are the top three products on highest demand in terms of quantity?
 
