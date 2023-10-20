@@ -209,7 +209,7 @@ Here are the results:
 - **Visualization type:** Pie chart
 - **Dimensions:** Product Category
 - **Measure:** SUM(Total Sales)
-- **Description:** In this pie chart for Figure 1, you can easily identify which product categories contribute the most to total sales. In this case, is the Men's Street Footwear.
+- **Description:** In this pie chart, for Figure 1, you can easily identify which product categories contribute the most to total sales. In this case, is the Men's Street Footwear.
 
 <img width="479" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/7d98ac96-97b2-4745-9080-98dcd047cfda">
 
@@ -217,19 +217,17 @@ Here are the results:
 
 - **Visualization type:** Line chart
 - **Dimensions:** Month(Invoice Date)
-- **Measure:** SUM(Total Sales), SUM(Units Sold)
-- **Description:** 
+- **Measure:** SUM(Total Sales) and SUM(Units Sold)
+- **Description:** In this line chart, for Figure 2, you can check for seasonal trends. In this case, there's a peak in sales in July while the minimum value of sales is in March. As a bonus, I included a line chart for units sold, which is in sync with the sales. 
 
 <img width="521" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/ebc0e0ad-fadf-4427-8138-fb90c898fd1b">
-
-
 
 ### Figure 3. Total Sales by State
 
 - **Visualization type:** Horizontal bar chart
-- **Dimensions:**
-- **Measure:**
-- **Description:**
+- **Dimensions:** State
+- **Measure:** SUM(Total Sales)
+- **Description:** In this horizontal bar chart, for Figure 3, you have a clear view of which states have the highest revenue in sales. In this case, California generates de most sales.
 
 <img width="475" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/351daadb-dfa9-4962-8698-9d7ee0f57c2d">
 
@@ -237,21 +235,10 @@ Here are the results:
 ### Figure 4. Total Sales by Retailer and Sales Method
 
 - **Visualization type:** Stacked bar chart
-- **Dimensions:**
-- **Measure:**
-- **Description:**
+- **Dimensions:** Retailer and Sales Method
+- **Measure:** SUM(Total Sales) (yes, this again!)
+- **Description:** In this stacked bar chart, for Figure 4, you can see the distribution of sales across different methods and identify which one is more effective for a specific retailer.
 
 <img width="491" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/edd4f173-409f-48ee-94ec-475dce6574e0">
-
-
-
-
-
-
-
-
-
-
-
 
 ## 🧠 Findings
