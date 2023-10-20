@@ -113,6 +113,8 @@ And this is the data output:
 
 <img width="230" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/04775ecb-837e-4d48-95fe-7d331f38eeef">
 
+From this data we can conclude that 
+
 ### What are the top three products on highest demand in terms of quantity?
 
 In this case, I'll have to use an aggregate function (again) to create a new column called total_units_sold, then group by product and order by the new column.
