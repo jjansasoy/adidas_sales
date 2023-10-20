@@ -134,6 +134,8 @@ And the data output:
 
 <img width="239" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/cfd1b4f1-753f-4038-840b-945c81a532b5">
 
+From this, you can conclude that the three product categories in the highest demand are "Men's Street Footwear", "Men's Athletic Footwear", and "Women's Apparel".
+
 ### Which retailers have the most sales per state?
 
 To answer this question, I'll need to perform the following steps:
@@ -166,6 +168,8 @@ And here's a screenshot of the retailers with the most sales in the first 10 sta
 
 <img width="332" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/a52ce4f7-82d8-4e6a-94bf-b280a1961320">
 
+This table (as it happens with the previous ones) is very self-explanatory. But as a conclusion, I'll mention that Alabama's top retailer is Sports Direct.
+
 ### Are there any interesting patterns as to when customers buy more products in terms of seasonality?
 
 To answer this question, it would be more helpful to have a dashboard in Tableau that allowed us to see these trends in seasonality (more on that in the following section 😉). For now, I can analyze the seasonality of sales by grouping the sales data by seasons (winter, spring, summer, and fall). Then you can calculate the total sales for each season.
@@ -188,6 +192,8 @@ ORDER BY total_sales;
 And here's the data output:
 
 <img width="164" alt="image" src="https://github.com/jjansasoy/adidas_sales/assets/63824959/d4a1d427-4f74-4956-b288-b81eb21ffa19">
+
+The only pattern or insight you can get from this table is that sales are at their highest in the summer. 
 
 ## ✨ Data Visualization in Tableau
 
