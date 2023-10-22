@@ -255,6 +255,7 @@ Here are the results:
 
 ## 🧠 Recommendations
 
+As Adidas sales peak in summer, it would be beneficial to  
 
 
 
