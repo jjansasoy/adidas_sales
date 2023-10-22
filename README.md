@@ -255,7 +255,9 @@ Here are the results:
 
 ## 🧠 Recommendations
 
-As Adidas sales peak in summer, it would be beneficial to  
+Adidas has two total sales major peaks, one during summer and one in December. Thanks to Figure 2 it's easy to understand that December has a peak in sales, even when the units sold aren't greater than in other periods, because of winter clothes (which are usually more expensive). Also, Adidas may present a peak in December because of Christmas. 
+
+A good course of action would be to release two marketing campaigns, one during the summer and another in December. The most sold products are men's sport and street footwear, so Adidas could tailor these campaigns to them.
 
 
 
